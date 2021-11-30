@@ -1,0 +1,71 @@
+[
+ {
+  "taskId": "test-3964884504",
+  "points": 0,
+  "results": [
+   {
+    "code": 2,
+    "output": "You do not have a loop - how will the user continue to ask about leap years?\nPoints Earned: 0 out of 2",
+    "timestamp": 1571845757940,
+    "state": "fail"
+   }
+  ]
+ },
+ {
+  "taskId": "code-output-compare-909952564",
+  "points": 0,
+  "results": [
+   {
+    "code": 1,
+    "output": "{\"error\": \"Pre command failed:\\n/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o: In function `_start':\\n(.text+0x20): undefined reference to `main'\\ncollect2: error: ld returned 1 exit status\\n\\n\"}",
+    "expectedOutputs": [],
+    "timestamp": 1571846226319,
+    "state": "fail"
+   }
+  ]
+ },
+ {
+  "taskId": "test-1601592689",
+  "points": 0,
+  "results": [
+   {
+    "code": 127,
+    "output": "Making check in src\nmake[1]: Entering directory '/home/codio/workspace/.guides/secure/q1/src'\nmake[1]: Nothing to be done for 'check'.\nmake[1]: Leaving directory '/home/codio/workspace/.guides/secure/q1/src'\nMaking check in .\nmake[1]: Entering directory '/home/codio/workspace/.guides/secure/q1'\nmake[1]: Nothing to be done for 'check-am'.\nmake[1]: Leaving directory '/home/codio/workspace/.guides/secure/q1'\nMaking check in tests\nmake[1]: Entering directory '/home/codio/workspace/.guides/secure/q1/tests'\nmake  check_isLeapYr\nmake[2]: Entering directory '/home/codio/workspace/.guides/secure/q1/tests'\ngcc -DPACKAGE_NAME=\\\"calc\\\" -DPACKAGE_TARNAME=\\\"calc\\\" -DPACKAGE_VERSION=\\\"0.0.1\\\" -DPACKAGE_STRING=\\\"calc\\ 0.0.1\\\" -DPACKAGE_BUGREPORT=\\\"help@codio.com\\\" -DPACKAGE_URL=\\\"\\\" -DPACKAGE=\\\"calc\\\" -DVERSION=\\\"0.0.1\\\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DLT_OBJDIR=\\\".libs/\\\" -I.    -I/usr/local/include -pthread   -g -O2 -MT check_isLeapYr-check_isLeapYr.o -MD -MP -MF .deps/check_isLeapYr-check_isLeapYr.Tpo -c -o check_isLeapYr-check_isLeapYr.o `test -f 'check_isLeapYr.c' || echo './'`check_isLeapYr.c\nmv -f .deps/check_isLeapYr-check_isLeapYr.Tpo .deps/check_isLeapYr-check_isLeapYr.Po\n/bin/bash ../libtool  --tag=CC   --mode=link gcc -I/usr/local/include -pthread   -g -O2   -o check_isLeapYr check_isLeapYr-check_isLeapYr.o ../src/libq1.la -L/usr/local/lib -lcheck   \nlibtool: link: gcc -I/usr/local/include -pthread -g -O2 -o .libs/check_isLeapYr check_isLeapYr-check_isLeapYr.o  ../src/.libs/libq1.so -L/usr/local/lib /usr/local/lib/libcheck.so -pthread\ncheck_isLeapYr-check_isLeapYr.o: In function `test_isLeapYr_function_fn':\n/home/codio/workspace/.guides/secure/q1/tests/check_isLeapYr.c:7: undefined reference to `isLeapYr'\n/home/codio/workspace/.guides/secure/q1/tests/check_isLeapYr.c:8: undefined reference to `isLeapYr'\n/home/codio/workspace/.guides/secure/q1/tests/check_isLeapYr.c:9: undefined reference to `isLeapYr'\n/home/codio/workspace/.guides/secure/q1/tests/check_isLeapYr.c:10: undefined reference to `isLeapYr'\n/home/codio/workspace/.guides/secure/q1/tests/check_isLeapYr.c:11: undefined reference to `isLeapYr'\ncheck_isLeapYr-check_isLeapYr.o:/home/codio/workspace/.guides/secure/q1/tests/check_isLeapYr.c:12: more undefined references to `isLeapYr' follow\ncollect2: error: ld returned 1 exit status\nMakefile:556: recipe for target 'check_isLeapYr' failed\nmake[2]: *** [check_isLeapYr] Error 1\nmake[2]: Leaving directory '/home/codio/workspace/.guides/secure/q1/tests'\nMakefile:854: recipe for target 'check-am' failed\nmake[1]: *** [check-am] Error 2\nmake[1]: Leaving directory '/home/codio/workspace/.guides/secure/q1/tests'\nMakefile:393: recipe for target 'check-recursive' failed\nmake: *** [check-recursive] Error 1\n.guides/secure/test.sh: line 21: tests/check_isLeapYr: No such file or directory",
+    "timestamp": 1571859832854,
+    "state": "fail"
+   }
+  ]
+ },
+ {
+  "taskId": "fill-in-the-blanks-186155868",
+  "points": 0,
+  "state": {
+   "active": []
+  },
+  "results": []
+ },
+ {
+  "taskId": "test-445880830",
+  "points": 0,
+  "results": [
+   {
+    "code": 1,
+    "output": "Your code does not import or use the math library\nPoints Earned: 0 out of 1",
+    "timestamp": 1571945882005,
+    "state": "fail"
+   }
+  ]
+ },
+ {
+  "taskId": "test-3198467663",
+  "points": 0,
+  "results": [
+   {
+    "code": 127,
+    "output": "Making check in src\nmake[1]: Entering directory '/home/codio/workspace/.guides/secure/q3/src'\nmake[1]: Nothing to be done for 'check'.\nmake[1]: Leaving directory '/home/codio/workspace/.guides/secure/q3/src'\nMaking check in .\nmake[1]: Entering directory '/home/codio/workspace/.guides/secure/q3'\nmake[1]: Nothing to be done for 'check-am'.\nmake[1]: Leaving directory '/home/codio/workspace/.guides/secure/q3'\nMaking check in tests\nmake[1]: Entering directory '/home/codio/workspace/.guides/secure/q3/tests'\nmake  check_f\nmake[2]: Entering directory '/home/codio/workspace/.guides/secure/q3/tests'\n/bin/bash ../libtool  --tag=CC   --mode=link gcc -I/usr/local/include -pthread   -g -O2   -o check_f check_f-check_f.o ../src/libq1.la -L/usr/local/lib -lcheck   \nlibtool: link: gcc -I/usr/local/include -pthread -g -O2 -o .libs/check_f check_f-check_f.o  ../src/.libs/libq1.so -L/usr/local/lib /usr/local/lib/libcheck.so -pthread\ncheck_f-check_f.o: In function `test_f_function_fn':\n/home/codio/workspace/.guides/secure/q3/tests/check_f.c:7: undefined reference to `f'\n/home/codio/workspace/.guides/secure/q3/tests/check_f.c:8: undefined reference to `f'\ncollect2: error: ld returned 1 exit status\nMakefile:555: recipe for target 'check_f' failed\nmake[2]: *** [check_f] Error 1\nmake[2]: Leaving directory '/home/codio/workspace/.guides/secure/q3/tests'\nMakefile:853: recipe for target 'check-am' failed\nmake[1]: *** [check-am] Error 2\nmake[1]: Leaving directory '/home/codio/workspace/.guides/secure/q3/tests'\nMakefile:394: recipe for target 'check-recursive' failed\nmake: *** [check-recursive] Error 1\n.guides/secure/test.sh: line 21: tests/check_f: No such file or directory",
+    "timestamp": 1571945902027,
+    "state": "fail"
+   }
+  ]
+ }
+]

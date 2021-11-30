@@ -1,0 +1,5 @@
+q1.lo: q1.c /usr/include/stdc-predef.h q1.h
+
+/usr/include/stdc-predef.h:
+
+q1.h:

@@ -1,0 +1,365 @@
+[
+ {
+  "type": "test",
+  "taskId": "test-1601592689",
+  "source": {
+   "name": "isLeapYr function correctness",
+   "showName": true,
+   "instructions": "Submit your `isLeapYr` function for correctness check",
+   "command": "bash .guides/secure/test.sh q1 check_isLeapYr",
+   "arePartialPointsAllowed": false,
+   "timeoutSeconds": 40,
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "points": 1,
+   "oneTimeTest": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Advanced Code Test"
+     }
+    ],
+    "files": [
+     "q1.c"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "q1.c"
+     },
+     {
+      "type": "terminal",
+      "panelNumber": 1,
+      "content": ""
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-3964884504",
+  "source": {
+   "name": "main Correctness",
+   "showName": true,
+   "instructions": "Submit your `main` function for correctness check",
+   "command": "python .guides/secure/q1Grader.py",
+   "arePartialPointsAllowed": true,
+   "timeoutSeconds": 40,
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "points": 2,
+   "oneTimeTest": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Advanced Code Test"
+     }
+    ],
+    "files": [
+     "q1.c"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "q1.c"
+     },
+     {
+      "type": "terminal",
+      "panelNumber": 1,
+      "content": ""
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "code-output-compare",
+  "taskId": "code-output-compare-909952564",
+  "source": {
+   "name": "Overall correctness",
+   "showName": true,
+   "instructions": "Submit your entire program by clicking the button below.\n\nHint: Make sure your output looks like the sample output above and takes user input.",
+   "command": "./q1",
+   "preExecuteCommand": "gcc q1.c -o q1",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "points": 1,
+   "oneTimeTest": false,
+   "options": {
+    "ignoreCase": true,
+    "ignoreWhitespaces": true,
+    "ignoreNewline": true,
+    "matchSubstring": true,
+    "timeout": 30
+   },
+   "showExpectedAnswer": true,
+   "sequence": [
+    {
+     "arguments": "",
+     "input": "2000\n1\n1999\n0\n",
+     "output": "Enter a year\n2000 is a leap yr\nEnter '1' to continue or '0' to quit:\nEnter a year\n1999 not a leap yr\nEnter '1' to continue or '0' to quit:",
+     "showFeedback": false,
+     "feedback": ""
+    },
+    {
+     "arguments": "",
+     "input": "1996\n0",
+     "output": "Enter a year\n1996 is a leap yr\nEnter '1' to continue or '0' to quit: ",
+     "showFeedback": false,
+     "feedback": ""
+    }
+   ],
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Standard Code Test"
+     }
+    ],
+    "files": [
+     "q1.c"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "q1.c"
+     },
+     {
+      "type": "terminal",
+      "panelNumber": 1,
+      "content": ""
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-4229961291",
+  "source": {
+   "name": "main Correctness",
+   "showName": true,
+   "instructions": "Submit your `main` function for correctness check",
+   "command": "python .guides/secure/q2Grader.py",
+   "arePartialPointsAllowed": false,
+   "timeoutSeconds": 40,
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "points": 1,
+   "oneTimeTest": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Advanced Code Test"
+     }
+    ],
+    "files": [
+     "q2.c"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "q2.c"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "code-output-compare",
+  "taskId": "code-output-compare-2449837205",
+  "source": {
+   "name": "Overall Correctness",
+   "showName": true,
+   "instructions": "Submit your entire program by clicking the button below.\n\nHint: Make sure your output looks like the sample output above",
+   "command": "./q2",
+   "preExecuteCommand": "gcc q2.c -o q2 -lm",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "points": 1,
+   "oneTimeTest": false,
+   "options": {
+    "ignoreCase": false,
+    "ignoreWhitespaces": true,
+    "ignoreNewline": true,
+    "matchSubstring": true,
+    "timeout": 30
+   },
+   "showExpectedAnswer": true,
+   "sequence": [
+    {
+     "arguments": "",
+     "input": "",
+     "output": "        x=0     term=5          sum=5\n        x=1     term=6          sum=11\n        x=2     term=9          sum=20\n        x=3     term=14         sum=34\n        x=4     term=21         sum=55\n        x=5     term=30         sum=85\n        x=6     term=41         sum=126\n        x=7     term=54         sum=180\n        x=8     term=69         sum=249\n        x=9     term=86         sum=335\n        x=10    term=105        sum=440\n\nThe sum is 440",
+     "showFeedback": false,
+     "feedback": ""
+    }
+   ],
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Standard Code Test"
+     }
+    ],
+    "files": [
+     "q2.c"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "q2.c"
+     },
+     {
+      "type": "terminal",
+      "panelNumber": 1,
+      "content": ""
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-445880830",
+  "source": {
+   "name": "main Corectness",
+   "showName": true,
+   "instructions": "Submit your `main` function for correctness check",
+   "command": "python .guides/secure/q3Grader.py",
+   "arePartialPointsAllowed": false,
+   "timeoutSeconds": 40,
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "points": 1,
+   "oneTimeTest": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Advanced Code Test"
+     }
+    ],
+    "files": [
+     "q3.c"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "q3.c"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-3198467663",
+  "source": {
+   "name": "f function correctness",
+   "showName": true,
+   "instructions": "Submit your `f` function for correctness check",
+   "command": "bash .guides/secure/test.sh q3 check_f",
+   "arePartialPointsAllowed": false,
+   "timeoutSeconds": 40,
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "points": 1,
+   "oneTimeTest": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Advanced Code Test"
+     }
+    ],
+    "files": [
+     "q3.c"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "q3.c"
+     },
+     {
+      "type": "terminal",
+      "panelNumber": 1,
+      "content": ""
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-186155868",
+  "source": {
+   "name": "Question 4",
+   "showName": true,
+   "instructions": "Four code fragments and four flow diagrams follow. Note that each diagram has two action boxes and one or two question boxes. All four represent distinct patterns of logic. Match each code fragment to the corresponding flow diagram and show how the code fits into the boxes.",
+   "text": "1 . <<<D>>>\n2 . <<<C>>>\n3 . <<<A>>>\n4 . <<<B>>>",
+   "guidance": "",
+   "showGuidanceAfterResponse": false,
+   "showExpectedAnswer": false,
+   "points": 1,
+   "showValues": true,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Fill in the Blanks"
+     }
+    ],
+    "files": [
+     "q3.c"
+    ],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": "",
+   "tokens": {
+    "blank": [
+     "D",
+     "C",
+     "A",
+     "B"
+    ],
+    "text": [
+     "1 . ",
+     0,
+     "\n2 . ",
+     0,
+     "\n3 . ",
+     0,
+     "\n4 . ",
+     0
+    ]
+   }
+  }
+ }
+]
